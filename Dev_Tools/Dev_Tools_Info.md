@@ -53,6 +53,8 @@ B --> Portable :: When you don't have admin access of machine like VDI(Citrix) y
 3. WinSCP : WinSCP is an open source free SFTP client, FTP client, WebDAV client, S3 client and SCP client for Windows. Its main function is file transfer between a local and a remote computer. : https://winscp.net/eng/download.php
 4. FileZilla : The FileZilla Client not only supports FTP, but also FTP over TLS (FTPS) and SFTP.  : https://filezilla-project.org/index.php
 
+---
+
 ### Supportive tools
 1. Lightshot : Best screen shot tool for daily dev use.
    Website : https://app.prntscr.com/en/index.html
@@ -68,3 +70,11 @@ B --> Portable :: When you don't have admin access of machine like VDI(Citrix) y
 5. RunAsDate website:	http://www.nirsoft.net/ 
                        This website has lot of use full software free of cost can explore.
 6. WizTree : WizTree is a very high speed disk space analyzer utility for Windows : https://diskanalyzer.com/about
+
+---
+
+### Peformance Measure and fix tools
+1. glowroot : Glowroot helps you get to the root of java application performance issues
+   website  : https://glowroot.org/
+   
+ ---  
