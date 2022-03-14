@@ -1,10 +1,6 @@
 
 
-
-RunAsDate v1.35
-Copyright (c) 2007 - 2017 Nir Sofer
 Web site: http://www.nirsoft.net
-
 
 
 Description
@@ -29,108 +25,6 @@ NtQuerySystemTime, GetSystemTimePreciseAsFileTime), and replaces the
 current date/time with the date/time that you specify.
 
 
-
-System Requirements
-===================
-
-RunAsDate works under Windows 2000, Windows XP, Windows Server 2003,
-Windows Server 2008, Windows Vista, Windows 7, Windows 8, and Windows 10.
-Older versions of Windows are not supported. There is also x64 version
-available in a separated download, for using with x64 applications.
-
-Important Notice !!
-I get many email messages that say something like "I tried to extend the
-trial period of xyz software with RunAsDate and it didn't work". Running
-a software with different date/time can be used for many legitimate
-purposes and for these purposes RunAsDate was created. I have never said
-implicitly or explicitly that RunAsDate can be used for extending the
-trial period of a software. For some shareware programs, RunAsDate might
-really work, but many shareware creators are smart enough to detect that
-the date/time was modified and when they detect the time change, they end
-the trial period immediately.
-Please don't bother yourself to send me a question about extending the
-trial period of a software, because these kind of messages are simply
-deleted without answering.
-
-
-
-Versions History
-================
-
-
-* Version 1.35:
-  o RunAsDate now displays an error message if you try to run 32-bit
-    program with 64-bit version of RunAsDate or 64-bit program with
-    32-bit version of RunAsDate.
-  o RunAsDate now displays an error message if it fails to run the
-    specified .exe file.
-  o RunAsDate now also intercepts the NtQuerySystemTime and
-    GetSystemTimePreciseAsFileTime API functions.
-  o RunAsDate now also intercepts the date/time functions on
-    kernelbase.dll (in addition to kernel32.dll). This change solves the
-    issue with cmd.exe on Windows 10 (it uses the APIs on kernelbase.dll )
-
-* Version 1.31:
-  o Fixed bug: When a program executed with RunAsDate requested to
-    get the current time in GMT (GetSystemTime and
-    GetSystemTimeAsFileTime API), RunAsDate provided the wrong time with
-    a difference of one hour if the computer date was in summer (With
-    daylight saving time) but the selected RunAsDate date was in winter
-    (Without daylight saving time) and vice versa...
-
-* Version 1.30:
-  o Added option to set the date/time relative to the current time.
-    You can add (positive number) or subtract (negative number) the
-    following time units: seconds, minutes, hours, days, months, and
-    years.
-  o Added 'Start in folder' option.
-  o RunAsDate now saves the last settings to config file
-    (RunAsDate.cfg)
-
-* Version 1.21:
-  o Fixed bug with 'Move the time forward according to the real time'
-    option: After around 7 minutes from the time that the application was
-    started, RunAsDate failed to calculate the time properly.
-
-* Version 1.20:
-  o Added 'Return to the current date/time after xx seconds' option.
-
-* Version 1.16:
-  o Fixed bug: RunAsDate removed a quote character when using it in
-    the {Program parameters} section of the command-line string.
-
-* Version 1.15:
-  o Fixed RunAsDate to work properly on Windows 8 64-bit.
-
-* Version 1.11:
-  o Added Drag & Drop support: You can now choose the .exe file to
-    run by dragging it from Explorer into the main window of RunAsDate.
-
-* Version 1.10:
-  o Added auto complete support in the filename field.
-  o Added x64 version.
-
-* Version 1.05:
-  o Fixed bug: When using 'Create Desktop Shortcut', the /immediate
-    and /movetime options were not added to the shortcut's command-line
-
-* Version 1.04:
-  o The main dialog-box is now resizable.
-
-* Version 1.03:
-  o Added 'Immediate Mode' - Change the date immediately when the
-    program starts.
-
-* Version 1.02:
-  o New option: Move the time forward according to the real time.
-
-* Version 1.01:
-  o New option: Create a shortcut on your desktop that will run a
-    program with the date/time that you specify.
-  o When you don't specify the time in the command-line, the current
-    time will be used, instead of 00:00:00.
-
-* Version 1.00 - First release.
 
 
 
@@ -194,53 +88,9 @@ RunAsDate Limitations
 
 
 
-Translating RunAsDate To Another Language
-=========================================
-
-RunAsDate allows you to easily translate all dialog-boxes and other
-strings to other languages.
-In order to do that, follow the instructions below:
-1. Run RunAsDate with /savelangfile parameter:
-   RunAsDate.exe /savelangfile
-   A file named RunAsDate_lng.ini will be created in the folder of
-   RunAsDate utility.
-2. Open the created language file in Notepad or in any other text
-   editor.
-3. Translate the dialog-boxes and string entries to the desired
-   language.
-4. After you finish the translation, Run RunAsDate, and all translated
-   strings will be loaded from the language file.
-   If you want to run RunAsDate without the translation, simply rename
-   the language file, or move it to another folder.
 
 
 
-License
-=======
-
-This utility is released as freeware. You are allowed to freely
-distribute this utility via floppy disk, CD-ROM, Internet, or in any
-other way, as long as you don't charge anything for this. If you
-distribute this utility, you must include all files in the distribution
-package, without any modification !
-Be aware that selling this utility as a part of a software package is not
-allowed !
 
 
 
-Disclaimer
-==========
-
-The software is provided "AS IS" without any warranty, either expressed
-or implied, including, but not limited to, the implied warranties of
-merchantability and fitness for a particular purpose. The author will not
-be liable for any special, incidental, consequential or indirect damages
-due to loss of data or any other reason.
-
-
-
-Feedback
-========
-
-If you have any problem, suggestion, comment, or you found a bug in my
-utility, you can send a message to nirsofer@yahoo.com
