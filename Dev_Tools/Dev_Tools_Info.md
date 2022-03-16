@@ -71,15 +71,22 @@ B --> Portable :: When you don't have admin access of machine like VDI(Citrix) y
                        This website has lot of use full software free of cost can explore.
 6. WizTree : WizTree is a very high speed disk space analyzer utility for Windows : https://diskanalyzer.com/about
 
+7. Control-M : Control-M simplifies application and data workflow orchestration on premises or as a service. It makes it easy to build, define, schedule, manage, and monitor production workflows, ensuring visibility, reliability, and improving SLAs.
+   Website  : https://www.bmc.com/it-solutions/control-m.html
 ---
 
 ### Peformance Measure and fix tools
-1. glowroot : Glowroot helps you get to the root of java application performance issues
+1. Glowroot : Glowroot helps you get to the root of java application performance issues
    website  : https://glowroot.org/
    
- ---  
+---  
  
- ### Testing Tools
- 1. SOAP UI : Get the most advanced functional testing tool for REST, SOAP and GraphQL APIs.
-    website : https://www.soapui.org/downloads/soapui/
- 2. 
+### Testing Tools
+1. SOAP UI : Get the most advanced functional testing tool for REST, SOAP and GraphQL APIs.
+   website : https://www.soapui.org/downloads/soapui/
+2. Postman : Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs
+   website : https://www.postman.com/product/what-is-postman/
+3. TestNG  :is a testing framework inspired from JUnit and NUnit but introducing some new functionalities that make it more powerful and easier to use.
+   website : https://testng.org/doc/
+
+---
