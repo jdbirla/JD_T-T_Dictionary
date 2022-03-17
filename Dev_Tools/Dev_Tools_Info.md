@@ -73,6 +73,9 @@ B --> Portable :: When you don't have admin access of machine like VDI(Citrix) y
 
 7. Control-M : Control-M simplifies application and data workflow orchestration on premises or as a service. It makes it easy to build, define, schedule, manage, and monitor production workflows, ensuring visibility, reliability, and improving SLAs.
    Website  : https://www.bmc.com/it-solutions/control-m.html
+8. Java Decompiler :JD-GUI is a standalone graphical utility that displays Java source codes of “.class” files.
+   website    : http://java-decompiler.github.io/
+
 ---
 
 ### Peformance Measure and fix tools
@@ -89,4 +92,11 @@ B --> Portable :: When you don't have admin access of machine like VDI(Citrix) y
 3. TestNG  :is a testing framework inspired from JUnit and NUnit but introducing some new functionalities that make it more powerful and easier to use.
    website : https://testng.org/doc/
 
+---
+
+### Code Coverage Tools
+
+1. JaCoCo  : JaCoCo is a free code coverage library for Java, which has been created by the EclEmma team based on the lessons learned from using and integration existing libraries for many years.
+   website : https://www.eclemma.org/jacoco/
+   
 ---
