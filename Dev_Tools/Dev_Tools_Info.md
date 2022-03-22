@@ -75,7 +75,8 @@ B --> Portable :: When you don't have admin access of machine like VDI(Citrix) y
    Website  : https://www.bmc.com/it-solutions/control-m.html
 8. Java Decompiler :JD-GUI is a standalone graphical utility that displays Java source codes of “.class” files.
    website    : http://java-decompiler.github.io/
-
+9. Spreadsheet Compare : Its under microsoft suit : C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Office ツール 
+                        Best tool for excel comaparision
 ---
 
 ### Peformance Measure and fix tools
