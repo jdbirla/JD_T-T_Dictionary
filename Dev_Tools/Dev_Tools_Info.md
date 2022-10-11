@@ -101,3 +101,16 @@ B --> Portable :: When you don't have admin access of machine like VDI(Citrix) y
    website : https://www.eclemma.org/jacoco/
    
 ---
+
+### Software Installed in my PC
+![image](https://user-images.githubusercontent.com/69948118/194982050-67a9908b-f0ac-4d7b-9de9-1870085f526e.png)
+![image](https://user-images.githubusercontent.com/69948118/194982069-eca4a318-98f7-45d6-9c4e-882f48a682ce.png)
+![image](https://user-images.githubusercontent.com/69948118/194982081-89a1949b-9cab-47fa-98b8-50154b47970f.png)
+![image](https://user-images.githubusercontent.com/69948118/194982119-50b9ba0a-c16e-42c2-8f58-5a9b42b40803.png)
+![image](https://user-images.githubusercontent.com/69948118/194982138-1afb1196-8005-4eac-ba24-6106a067db82.png)
+![image](https://user-images.githubusercontent.com/69948118/194982152-7ee3b202-0e2f-4008-b7ac-98fe2cb459eb.png)
+![image](https://user-images.githubusercontent.com/69948118/194982175-4c002e1c-ff02-48d0-9948-60efe3fbb81c.png)
+![image](https://user-images.githubusercontent.com/69948118/194982190-8586f43b-b766-4803-8d7a-36816e6f7d3a.png)
+![image](https://user-images.githubusercontent.com/69948118/194982201-4c3a9e35-18b8-49c4-9bba-d4be808653f0.png)
+![image](https://user-images.githubusercontent.com/69948118/194982214-43c09790-334d-4b5a-9fe8-445f606a4ef9.png)
+![image](https://user-images.githubusercontent.com/69948118/194982233-6eb4aa11-5c37-4ab0-9c3b-360e178c2450.png)
